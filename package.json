@@ -25,9 +25,9 @@
     "chart.js": "^4.5.0",
     "editorjs-html": "^4.0.5",
     "editorjs-parser": "^1.5.3",
-    "react": "^19.1.1",
+    "react": "^18.2.0",
     "react-chartjs-2": "^5.3.0",
-    "react-dom": "^19.1.1",
+    "react-dom": "^18.2.0",
     "react-quill": "^2.0.0",
     "react-router-dom": "^7.8.0"
   },
