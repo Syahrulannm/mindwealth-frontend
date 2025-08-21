@@ -75,7 +75,7 @@ export const ArticleForm = ({ article, setArticle, handleSubmit, handleEditorCha
           <label htmlFor="coverImage" className="mb-1 text-gray-700 dark:text-gray-200 font-medium">
             Cover Image
           </label>
-          {article.coverImage && typeof article.coverImage === "string" && <img src={`/uploads/${article.coverImage}`} alt="cover" className="w-full h-60 object-cover rounded-md mb-2 shadow-sm" />}
+          {article.coverImage && typeof article.coverImage === "string" && <img src={`https://mindwealth-backend.up.railway.app/uploads/${article.coverImage}`} alt="cover" className="w-full h-60 object-cover rounded-md mb-2 shadow-sm" />}
           <input id="coverImage" name="coverImage" type="file" onChange={(e) => setArticle((prev) => ({ ...prev, coverImage: e.target.files[0] }))} className="text-gray-700 dark:text-gray-200" />
         </div>
       </div>
