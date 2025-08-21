@@ -1,15 +1,29 @@
 import { Link } from "react-router-dom";
+import { useLanguage } from "../context/LanguageContext";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faComment, faFlag, faFlagUsa, faLanguage } from "@fortawesome/free-solid-svg-icons";
 
 export default function Hero() {
+  const { language, toggleLanguage } = useLanguage();
+  const isID = language === "ID";
   return (
     <section id="home" className="py-16 md:py-24 bg-slate-50 dark:bg-gray-800">
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col-reverse md:flex-row items-center">
           <div className="md:w-1/2 mb-12 md:mb-0 fly-in text-center md:text-start">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 dark:text-gray-100">
-              Nourish Your <span className="bg-gradient-custom gradient-text ">Mind</span>, Grow Your <span className="gradient-text bg-gradient-custom">Wealth</span>
-            </h1>
-            <p className="text-lg md:text-xl text-secondary-600 dark:text-gray-200 mb-8 leading-relaxed">Thoughtful perspectives on psychology, personal growth, technology and designing a meaningful life.</p>
+            <div className="flex ">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 dark:text-gray-100">
+                {isID ? "Nourish Your" : "Asah"} <span className="bg-gradient-custom gradient-text ">{isID ? "Mind" : "Pikiranmu"}</span>, {isID ? "Grow Your" : "Kembangkan"}
+                {"   "}
+                <span className="gradient-text bg-gradient-custom">{isID ? "Wealth" : " Potensimu"}</span>
+              </h1>
+              <div className="mt-2">
+                <button onClick={toggleLanguage} className="bg-sky-100 text-sky-600 rounded-full p-1 hover:bg-sky-200 transition">
+                  {language === "EN" ? <FontAwesomeIcon icon={faLanguage} /> : <FontAwesomeIcon icon={faLanguage} />}
+                </button>
+              </div>
+            </div>
+            <p className="text-lg md:text-xl text-secondary-600 dark:text-gray-200 mb-8 leading-relaxed">Perspektif mendalam tentang psikologi, pengembangan diri, teknologi, dan merancang kehidupan yang bermakna.</p>
             <div className="flex space-x-4 justify-center md:justify-start">
               <Link to="/articles" className="bg-primary-600 hover:bg-primary-600 text-white px-6 py-3 rounded-lg font-medium transition shadow-md hover:shadow-lg">
                 Start Reading

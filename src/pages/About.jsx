@@ -10,8 +10,8 @@ export default function About() {
     <section id="about" className="bg-secondary-50 dark:bg-gray-800">
       <header className="bg-gradient-to-r from-primary-900 to-primary-600 text-white py-20">
         <div className="container mx-auto px-6 text-center">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6">About MindWealth</h1>
-          <p className="text-xl md:text-2xl max-w-3xl mx-auto opacity-90">Thoughtful perspectives on psychology, personal growth, technology, and designing a meaningful life.</p>
+          <h1 className="text-4xl md:text-6xl font-bold mb-6">Tentang MindWealth</h1>
+          <p className="text-xl md:text-2xl max-w-3xl mx-auto opacity-90">Perspektif mendalam tentang psikologi, pengembangan diri, teknologi, dan merancang kehidupan yang bermakna.</p>
         </div>
       </header>
       <main className="container mx-auto px-6 py-16">
@@ -19,15 +19,18 @@ export default function About() {
         <section className="mb-20">
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="md:w-1/2">
-              <h2 className="text-3xl font-bold text-slate-900 dark:text-gray-50 mb-6">Our Story</h2>
+              <h2 className="text-3xl font-bold text-slate-900 dark:text-gray-50 mb-6">Cerita Kami</h2>
               <p className="text-gray-700 dark:text-gray-200 mb-4">
-                MindWealth was born from a simple yet powerful idea: combining the insights of psychology, the drive for personal growth, and the transformative power of technology to help people live more meaningful lives.
+                MindWealth lahir dari sebuah ide sederhana namun kuat: menggabungkan wawasan psikologi, semangat pengembangan diri, dan kekuatan transformasi teknologi untuk membantu orang menjalani hidup yang lebih bermakna.
               </p>
               <p className="text-gray-700 dark:text-gray-200 mb-4">
-                What started as a small collection of thoughts and articles has grown into a platform where ideas meet action. We believe that by nourishing the mind with knowledge, sharpening skills with technology, and aligning life with
-                clear purpose, anyone can create their own version of wealth—both mentally and in life’s opportunities.
+                Berawal dari kumpulan pemikiran dan artikel, kini MindWealth berkembang menjadi sebuah platform tempat ide bertemu dengan aksi. Kami percaya bahwa dengan memberi asupan pengetahuan pada pikiran, mengasah keterampilan lewat
+                teknologi, dan menyelaraskan hidup dengan tujuan yang jelas, setiap orang dapat menciptakan versinya sendiri tentang “kekayaan” — baik secara mental maupun peluang hidup.
               </p>
-              <p className="text-gray-700 dark:text-gray-200">This is more than just a website. MindWealth is a growing community of curious thinkers, lifelong learners, and changemakers who strive to design a life they truly value.</p>
+              <p className="text-gray-700 dark:text-gray-200">
+                {" "}
+                MindWealth bukan sekadar website. Ia adalah komunitas yang terus tumbuh, berisi pemikir kritis, pembelajar sepanjang hayat, dan para penggerak perubahan yang berupaya merancang kehidupan yang benar-benar mereka hargai.
+              </p>
             </div>
             <div className="md:w-1/2">
               <img
@@ -41,10 +44,10 @@ export default function About() {
         {/* <!-- Our Mission --> */}
         <section className="bg-primary-50 dark:bg-gray-900 rounded-xl p-12 mb-20">
           <div className="text-center max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-slate-900 dark:text-gray-50 mb-6">Our Mission</h2>
+            <h2 className="text-3xl font-bold text-slate-900 dark:text-gray-50 mb-6">Misi Kami</h2>
             <p className="text-md max-w-2xl mx-auto text-gray-700 dark:text-gray-200 mb-8">
-              "At MindWealth, our mission is to inspire and empower individuals to grow—mentally, emotionally, and technically. We aim to provide thoughtful, clear, and practical insights on psychology, personal development, and technology,
-              helping people design a life that is both purposeful and fulfilling."
+              "Di MindWealth, misi kami adalah menginspirasi dan memberdayakan setiap individu untuk bertumbuh—secara mental, emosional, dan teknis. Kami bertekad menyajikan wawasan yang mendalam, jelas, dan praktis tentang psikologi,
+              pengembangan diri, serta teknologi, untuk membantu orang merancang kehidupan yang penuh tujuan dan kepuasan."
             </p>
             {/* <!-- Cards --> */}
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
@@ -53,28 +56,28 @@ export default function About() {
                   <FontAwesomeIcon icon={faLightbulb} className=" text-3xl" />
                 </div>
                 <h3 className="font-bold text-gray-700 dark:text-gray-200 mb-2">Inspiration</h3>
-                <p className="text-gray-600 text-sm dark:text-gray-300">Thoughtful ideas and stories to inspire continuous growth and reflection.</p>
+                <p className="text-gray-600 text-sm dark:text-gray-300">Ide dan cerita yang penuh makna untuk menginspirasi pertumbuhan berkelanjutan dan refleksi diri.</p>
               </div>
               <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
                 <div className="text-primary-600 mb-4">
                   <FontAwesomeIcon icon={faMagnifyingGlass} className=" text-3xl" />
                 </div>
                 <h3 className="font-bold text-gray-700 dark:text-gray-200 mb-2">Clarity</h3>
-                <p className="text-gray-600 text-sm dark:text-gray-300">Clear, easy-to-understand information that bridges the gap between knowledge and action.</p>
+                <p className="text-gray-600 text-sm dark:text-gray-300">Informasi yang jelas dan mudah dipahami untuk menjembatani kesenjangan antara pengetahuan dan tindakan.</p>
               </div>
               <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
                 <div className="text-primary-600 mb-4">
                   <FontAwesomeIcon icon={faLaptopCode} className=" text-3xl" />
                 </div>
                 <h3 className="font-bold text-gray-700 dark:text-gray-200 mb-2">Technology</h3>
-                <p className="text-gray-600 text-sm dark:text-gray-300">Using technology wisely to enhance learning, creativity, and meaningful living.</p>
+                <p className="text-gray-600 text-sm dark:text-gray-300">Pemanfaatan teknologi secara bijak untuk meningkatkan pembelajaran, kreativitas, dan hidup yang bermakna.</p>
               </div>
               <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
                 <div className="text-primary-600 mb-4">
                   <FontAwesomeIcon icon={faSeedling} className=" text-3xl" />
                 </div>
                 <h3 className="font-bold text-gray-700 dark:text-gray-200 mb-2">Personal Growth</h3>
-                <p className="text-gray-600 text-sm dark:text-gray-300">Strategies and habits for lifelong learning, self-awareness, and positive change.</p>
+                <p className="text-gray-600 text-sm dark:text-gray-300">Strategi dan kebiasaan untuk pembelajaran sepanjang hayat, kesadaran diri, dan perubahan positif.</p>
               </div>
             </div>
           </div>
@@ -90,19 +93,19 @@ export default function About() {
               <p className="text-sky-600 dark:text-sky-400 text-sm mb-4">Founder & Writer at MindWealth</p>
               {/* <!-- Bio Singkat --> */}
               <p className="text-gray-600 dark:text-gray-300 max-w-2xl mb-6">
-                Syahrul Annam is the founder and main writer of MindWealth. With a background in Information Technology and a passion for psychology, personal growth, and technology, he writes to inspire readers to live purposefully in the
-                digital era.
+                Syahrul Annam adalah pendiri sekaligus penulis utama MindWealth. Berbekal latar belakang di bidang Teknologi Informasi dan minat besar pada psikologi, pengembangan diri, serta teknologi, ia menulis untuk menginspirasi
+                pembaca agar hidup dengan tujuan di era digital.
               </p>
 
               {/* <!-- Social Links --> */}
-              <div className="flex space-x-4">
-                <a href="https://linkedin.com/in/username" target="_blank" className="text-gray-500 hover:text-sky-500 text-xl">
+              <div className="flex space-x-4 justify-center items-center">
+                <a href="https://linkedin.com/in/syahrul-annam" target="_blank" className="text-gray-500 hover:text-sky-600 text-xl transition-smooth">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 16h-2v-6h2v6zm-1-6.891c-.607 0-1.1-.496-1.1-1.109 0-.612.492-1.109 1.1-1.109s1.1.497 1.1 1.109c0 .613-.493 1.109-1.1 1.109zm8 6.891h-1.998v-2.861c0-1.881-2.002-1.722-2.002 0v2.861h-2v-6h2v1.093c.872-1.616 4-1.736 4 1.548v3.359z" />
                   </svg>
                 </a>
-                <a href="https://github.com/username" target="_blank" className="text-gray-500 hover:text-sky-500 text-xl">
-                  <svg className="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+                <a href="https://github.com/Syahrulannm" target="_blank" className=" text-gray-500 hover:text-sky-500 bg-gray-500 hover:bg-sky-600 transition-smooth text-xl rounded-full flex justify-center items-center ">
+                  <svg className="w-5 h-5 " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
                     <linearGradient id="rL2wppHyxHVbobwndsT6Ca_AZOZNnY73haj_gr1" x1="4" x2="44" y1="23.508" y2="23.508" gradientUnits="userSpaceOnUse">
                       <stop offset="0" stopColor="#4c4c4c"></stop>
                       <stop offset="1" stopColor="#343434"></stop>
@@ -122,8 +125,8 @@ export default function About() {
                     ></path>
                   </svg>
                 </a>
-                <a href="mailto:syahrulot132@gmail.com" className=" text-gray-500 hover:text-sky-500 text-xl">
-                  <FontAwesomeIcon icon={faEnvelope} className="w-6 h-6" />
+                <a href="mailto:syahrulot132@gmail.com" className="flex text-gray-500 hover:text-sky-600 text-xl transition-smooth">
+                  <FontAwesomeIcon icon={faEnvelope} className="w-5 h-5" />
                 </a>
               </div>
             </div>
@@ -161,10 +164,10 @@ export default function About() {
         </section>
         {/* <!-- Call to Action --> */}
         <section className="bg-gradient-to-r from-primary-500 to-secondary-600 text-white rounded-xl p-12 text-center">
-          <h2 className="text-3xl font-bold mb-6">Your Mind, Your Wealth</h2>
-          <p className="text-xl mb-8 max-w-2xl mx-auto">Unlock ideas, stories, and insights that inspire action.</p>
+          <h2 className="text-3xl font-bold mb-6">Pikiranmu, Kekayaanmu</h2>
+          <p className="text-xl mb-8 max-w-2xl mx-auto">Temukan ide, cerita, dan wawasan yang menginspirasi aksi.</p>
           <Link to="/articles" className="bg-white text-primary-600 font-bold px-8 py-3 rounded-lg hover:bg-gray-100 transition duration-300 shadow-lg">
-            Explore Now
+            Jelajahi Sekarang
           </Link>
         </section>
       </main>

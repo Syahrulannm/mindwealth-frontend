@@ -2,7 +2,7 @@ import axios from "axios";
 // Membuat instance axios dengan baseURL yang sesuai
 // Pastikan VITE_API_URL sudah diatur di file .env
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || "http://localhost:5000/api", // Ganti dengan URL API Anda
+  baseURL: import.meta.env.VITE_API_URL, //|| "http://localhost:5000/api", // Ganti dengan URL API Anda
   headers: {
     "Content-Type": "application/json",
   },

@@ -1,7 +1,7 @@
 // src/pages/ArticleDetail.jsx
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import api from "../utils/api";
+import api from "../../utils/api";
 import editorJsHtml from "editorjs-html";
 
 const edjsParser = editorJsHtml(); // Inisialisasi parser

@@ -16,7 +16,7 @@ export default function Footer() {
                 <span className="text-slate-100">Mind</span>Wealth
               </h3>
             </div>
-            <p className="text-secondary-400 mb-4">Thoughtful insights for mindful living and cognitive growth.</p>
+            <p className="text-secondary-400 mb-4">Wawasan mendalam untuk hidup penuh kesadaran dan pertumbuhan kognitif.</p>
             <div className="flex space-x-4">
               <a href="#" className="text-secondary-400 hover:text-white transition">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">

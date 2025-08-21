@@ -53,7 +53,7 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {previewItems.map((article) => (
             <div key={article._id} className="bg-white dark:bg-gray-900 shadow-md rounded-lg overflow-hidden hover:shadow-lg transition">
-              {article.coverImage && <img src={`http://localhost:5000/uploads/${article.coverImage}`} alt={article.title} className="w-full h-48 object-cover transition duration-300 hover:scale-105" />}
+              {article.coverImage && <img src={article.coverImage} alt={article.title} className="w-full h-48 object-cover transition duration-300 hover:scale-105" />}
               <div className="p-6">
                 <div className="flex items-center mb-2">
                   <span className="text-xs font-medium text-primary-600">{article.category || "General"}</span>

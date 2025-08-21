@@ -70,3 +70,59 @@ Dapatkan wawasan mingguan, refleksi, dan inspirasi untuk membantu Anda berpikir 
 Alamat email Anda
 Langganan
 Privasi menghargai privasi anda, kami tidak pernah mengirim spam.
+
+# Our Mission
+
+(EN)
+Inspiration
+Thoughtful ideas and stories to inspire continuous growth and reflection.
+
+Clarity
+Clear, easy-to-understand information that bridges the gap between knowledge and action.
+
+Technology
+Using technology wisely to enhance learning, creativity, and meaningful living.
+
+Personal Growth
+Strategies and habits for lifelong learning, self-awareness, and positive change.
+
+(ID)
+Inspiration
+Ide dan cerita yang penuh makna untuk menginspirasi pertumbuhan berkelanjutan dan refleksi diri.
+
+Clarity
+Informasi yang jelas dan mudah dipahami untuk menjembatani kesenjangan antara pengetahuan dan tindakan.
+
+Technology
+Pemanfaatan teknologi secara bijak untuk meningkatkan pembelajaran, kreativitas, dan hidup yang bermakna.
+
+Personal Growth
+Strategi dan kebiasaan untuk pembelajaran sepanjang hayat, kesadaran diri, dan perubahan positif.
+
+# About
+
+(EN)
+About MindWealth
+Thoughtful perspectives on psychology, personal growth, technology, and designing a meaningful life.
+
+(ID)
+Tentang MindWealth
+Perspektif mendalam tentang psikologi, pengembangan diri, teknologi, dan merancang kehidupan yang bermakna.
+
+# Tagline
+
+EN:
+Nourish Your Mind, Grow Your Wealth
+Thoughtful perspectives on psychology, personal growth, technology, and designing a meaningful life.
+
+ID:
+Asah Pikiranmu, Kembangkan Potensimu
+Perspektif mendalam tentang psikologi, pengembangan diri, teknologi, dan merancang kehidupan yang bermakna.
+
+# Footer
+
+(EN)
+Thoughtful insights for mindful living and cognitive growth.
+
+(ID)
+Wawasan mendalam untuk hidup penuh kesadaran dan pertumbuhan kognitif.

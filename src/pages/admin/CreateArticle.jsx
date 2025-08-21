@@ -9,7 +9,7 @@ export default function CreateArticle() {
   const [article, setArticle] = useState({
     title: "",
     slug: "",
-    content: {}, // ⬅️ biarkan tetap kosong, nanti diisi EditorJS JSON
+    content: {}, // biarkan tetap kosong, nanti diisi EditorJS JSON
     category: "",
     coverImage: null,
     published: false,

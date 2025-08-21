@@ -52,13 +52,13 @@ const Navbar = () => {
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex space-x-8 items-center">
-          <Link to="/" className="text-gray-100 text-base flex justify-center items-center hover:text-sky-600 transition">
+          <Link to="/" className="text-gray-100 text-sm flex justify-center items-center hover:text-sky-600 transition">
             Home
           </Link>
-          <Link to="/articles" className="text-gray-100 text-base flex justify-center items-center hover:text-sky-600 transition">
+          <Link to="/articles" className="text-gray-100 text-sm flex justify-center items-center hover:text-sky-600 transition">
             Articles
           </Link>
-          <Link to="/about" className="text-gray-100 text-base flex justify-center items-center hover:text-sky-600 transition">
+          <Link to="/about" className="text-gray-100 text-sm flex justify-center items-center hover:text-sky-600 transition">
             About
           </Link>
         </div>

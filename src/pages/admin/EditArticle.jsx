@@ -25,7 +25,7 @@ export default function EditArticle() {
         .get(`/articles/${id}`)
         .then((res) => {
           setArticle(res.data);
-          setInitialData(res.data.content); // ⬅️ tetap simpan untuk preload di editor
+          setInitialData(res.data.content); // tetap simpan untuk preload di editor
         })
         .catch((err) => console.error(err));
     }
