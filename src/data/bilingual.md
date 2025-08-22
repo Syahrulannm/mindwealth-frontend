@@ -126,3 +126,8 @@ Thoughtful insights for mindful living and cognitive growth.
 
 (ID)
 Wawasan mendalam untuk hidup penuh kesadaran dan pertumbuhan kognitif.
+
+# Hero Button
+
+Start Reading → Baca Sekarang
+Learn More → Selengkapnya

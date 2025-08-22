@@ -62,7 +62,7 @@ const ArticleSlug = () => {
             </div>
           </div>
 
-          {article.coverImage && <img src={`http://localhost:5000/uploads/${article.coverImage}`} alt={article.title} className="w-full rounded-lg mb-6 object-cover transition" />}
+          {article.coverImage && <img src={article.coverImage} alt={article.title} className="w-full rounded-lg mb-6 object-cover transition" />}
 
           {/* Konten artikel hasil parsing EditorJS */}
           <div className="prose prose-lg dark:prose-invert max-w-none">
@@ -74,14 +74,14 @@ const ArticleSlug = () => {
 
         {/* Sidebar Related Articles */}
         <aside className="w-full lg:w-1/3 mt-8 lg:mt-0">
-          <div className="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-md">
+          <div className="bg-white dark:bg-gray-900 p-6 rounded-2xl shadow-md">
             <h3 className="text-lg font-bold mb-4 text-gray-900 dark:text-white">Artikel Terkait</h3>
             <ul className="space-y-4">
               {relatedArticles.length > 0 ? (
                 relatedArticles.map((related) => (
-                  <li key={related._id} className="text-lg font-bold text-gray-100 space-y-4 bg-gray-900 p-4 rounded-xl hover:scale-105 transition-smooth">
-                    <Link to={`/articles/${related.slug}`} className="flex items-center gap-3 hover:text-blue-600 dark:hover:text-blue-400">
-                      <img src={related.coverImage ? `/uploads/${related.coverImage}` : "/placeholder.jpg"} alt={related.title} className="w-16 h-16 rounded-lg object-cover" />
+                  <li key={related._id} className="text-base lg:text-lg font-bold text-gray-100 space-y-4 bg-gray-50 dark:bg-gray-800 p-4 rounded-xl hover:scale-105 transition-smooth">
+                    <Link to={`/articles/${related.slug}`} className="flex items-center gap-3 text-gray-800 dark:text-gray-100 hover:text-blue-600 dark:hover:text-blue-400">
+                      <img src={related.coverImage ? related.coverImage : "/placeholder.jpg"} alt={related.title} className="w-16 h-16 rounded-lg object-cover" />
                       <span>{related.title}</span>
                     </Link>
                   </li>

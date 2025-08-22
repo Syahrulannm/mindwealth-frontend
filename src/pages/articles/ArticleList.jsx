@@ -38,7 +38,8 @@ export default function ArticleList() {
   // Filter artikel berdasarkan kategori, status, dan search term
   const filteredArticles = articles.filter((article) => {
     const matchCategory = filterCategory === "all" || article.category === filterCategory;
-    const matchSearch = article.title.toLowerCase().includes(debouncedSearchTerm.toLowerCase()) || (article.content && article.content.toLowerCase().includes(debouncedSearchTerm.toLowerCase()));
+    // Lakukan pengecekan ketat agar menghinndari error
+    const matchSearch = article.title.toLowerCase().includes(debouncedSearchTerm.toLowerCase()) || (typeof article.content === "string" && article.content.toLowerCase().includes(debouncedSearchTerm.toLowerCase()));
     return matchCategory && matchSearch;
   });
   // Statistik per kategori
@@ -84,7 +85,7 @@ export default function ArticleList() {
                     <option className="font-medium cursor-pointer" value="filter">
                       All
                     </option>
-                    {categories.map((cat, index) => (
+                    {articlesPerCategory.map((cat, index) => (
                       <option key={index} value={cat}>
                         {cat}
                       </option>
