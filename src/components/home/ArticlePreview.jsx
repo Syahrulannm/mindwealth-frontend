@@ -22,7 +22,7 @@ function getExcerptFromEditorJs(content) {
 export default function Home() {
   const [articles, setArticles] = useState([]);
   const [loading, setLoading] = useState(true);
-  const previewItems = articles.slice(0, 3); // Ambil 3 artikel pertama sesuai urutan
+  const previewItems = articles.slice(0, 5); // Ambil 3 artikel pertama sesuai urutan
 
   useEffect(() => {
     const fetchArticles = async () => {
